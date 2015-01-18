@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB054AB316B4761400CAAD96 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AB054AB216B4761400CAAD96 /* libcrypto.dylib */; };
+		ABB590881A0C04390041C022 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB590871A0C04390041C022 /* Images.xcassets */; };
+		ABD58BED16B4497000E73932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD58BEC16B4497000E73932 /* Cocoa.framework */; };
+		ABD58BF716B4497000E73932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD58BF516B4497000E73932 /* InfoPlist.strings */; };
+		ABD58BF916B4497000E73932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD58BF816B4497000E73932 /* main.m */; };
+		ABD58C0016B4497000E73932 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD58BFF16B4497000E73932 /* AppDelegate.m */; };
+		ABD58C0316B4497100E73932 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD58C0116B4497100E73932 /* MainMenu.xib */; };
+		ABD58C0C16B4497100E73932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD58BEC16B4497000E73932 /* Cocoa.framework */; };
+		ABD58C1416B4497100E73932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD58C1216B4497100E73932 /* InfoPlist.strings */; };
+		ABD58C1716B4497100E73932 /* AutoAPBDecryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD58C1616B4497100E73932 /* AutoAPBDecryptTests.m */; };
+		ABE6DFC916B4641A004DC112 /* AutoAPBDecrypt.icns in Resources */ = {isa = PBXBuildFile; fileRef = ABE6DFC816B4641A004DC112 /* AutoAPBDecrypt.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD58C0D16B4497100E73932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD58BDF16B4497000E73932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD58BE716B4497000E73932;
+			remoteInfo = AutoAPBDecrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB054AB216B4761400CAAD96 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
+		ABB590871A0C04390041C022 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD58BE816B4497000E73932 /* AutoAPBDecrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoAPBDecrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD58BEC16B4497000E73932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABD58BEF16B4497000E73932 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABD58BF016B4497000E73932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABD58BF116B4497000E73932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABD58BF416B4497000E73932 /* AutoAPBDecrypt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoAPBDecrypt-Info.plist"; sourceTree = "<group>"; };
+		ABD58BF616B4497000E73932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD58BF816B4497000E73932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD58BFA16B4497000E73932 /* AutoAPBDecrypt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoAPBDecrypt-Prefix.pch"; sourceTree = "<group>"; };
+		ABD58BFE16B4497000E73932 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABD58BFF16B4497000E73932 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABD58C0216B4497100E73932 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABD58C0916B4497100E73932 /* AutoAPBDecryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoAPBDecryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD58C1116B4497100E73932 /* AutoAPBDecryptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoAPBDecryptTests-Info.plist"; sourceTree = "<group>"; };
+		ABD58C1316B4497100E73932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD58C1516B4497100E73932 /* AutoAPBDecryptTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoAPBDecryptTests.h; sourceTree = "<group>"; };
+		ABD58C1616B4497100E73932 /* AutoAPBDecryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoAPBDecryptTests.m; sourceTree = "<group>"; };
+		ABE6DFC816B4641A004DC112 /* AutoAPBDecrypt.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AutoAPBDecrypt.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD58BE516B4497000E73932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB054AB316B4761400CAAD96 /* libcrypto.dylib in Frameworks */,
+				ABD58BED16B4497000E73932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD58C0516B4497100E73932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD58C0C16B4497100E73932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD58BDD16B4497000E73932 = {
+			isa = PBXGroup;
+			children = (
+				ABD58BF216B4497000E73932 /* AutoAPBDecrypt */,
+				ABD58C0F16B4497100E73932 /* AutoAPBDecryptTests */,
+				ABD58BEB16B4497000E73932 /* Frameworks */,
+				ABD58BE916B4497000E73932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD58BE916B4497000E73932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD58BE816B4497000E73932 /* AutoAPBDecrypt.app */,
+				ABD58C0916B4497100E73932 /* AutoAPBDecryptTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD58BEB16B4497000E73932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB054AB216B4761400CAAD96 /* libcrypto.dylib */,
+				ABD58BEC16B4497000E73932 /* Cocoa.framework */,
+				ABD58BEE16B4497000E73932 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD58BEE16B4497000E73932 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD58BEF16B4497000E73932 /* AppKit.framework */,
+				ABD58BF016B4497000E73932 /* CoreData.framework */,
+				ABD58BF116B4497000E73932 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABD58BF216B4497000E73932 /* AutoAPBDecrypt */ = {
+			isa = PBXGroup;
+			children = (
+				ABD58BFE16B4497000E73932 /* AppDelegate.h */,
+				ABD58BFF16B4497000E73932 /* AppDelegate.m */,
+				ABD58C0116B4497100E73932 /* MainMenu.xib */,
+				ABB590871A0C04390041C022 /* Images.xcassets */,
+				ABD58BF316B4497000E73932 /* Supporting Files */,
+			);
+			path = AutoAPBDecrypt;
+			sourceTree = "<group>";
+		};
+		ABD58BF316B4497000E73932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD58BF416B4497000E73932 /* AutoAPBDecrypt-Info.plist */,
+				ABD58BF516B4497000E73932 /* InfoPlist.strings */,
+				ABD58BF816B4497000E73932 /* main.m */,
+				ABD58BFA16B4497000E73932 /* AutoAPBDecrypt-Prefix.pch */,
+				ABE6DFC816B4641A004DC112 /* AutoAPBDecrypt.icns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD58C0F16B4497100E73932 /* AutoAPBDecryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD58C1516B4497100E73932 /* AutoAPBDecryptTests.h */,
+				ABD58C1616B4497100E73932 /* AutoAPBDecryptTests.m */,
+				ABD58C1016B4497100E73932 /* Supporting Files */,
+			);
+			path = AutoAPBDecryptTests;
+			sourceTree = "<group>";
+		};
+		ABD58C1016B4497100E73932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD58C1116B4497100E73932 /* AutoAPBDecryptTests-Info.plist */,
+				ABD58C1216B4497100E73932 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD58BE716B4497000E73932 /* AutoAPBDecrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD58C1A16B4497100E73932 /* Build configuration list for PBXNativeTarget "AutoAPBDecrypt" */;
+			buildPhases = (
+				ABD58BE416B4497000E73932 /* Sources */,
+				ABD58BE516B4497000E73932 /* Frameworks */,
+				ABD58BE616B4497000E73932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoAPBDecrypt;
+			productName = AutoAPBDecrypt;
+			productReference = ABD58BE816B4497000E73932 /* AutoAPBDecrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD58C0816B4497100E73932 /* AutoAPBDecryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD58C1D16B4497100E73932 /* Build configuration list for PBXNativeTarget "AutoAPBDecryptTests" */;
+			buildPhases = (
+				ABD58C0416B4497100E73932 /* Sources */,
+				ABD58C0516B4497100E73932 /* Frameworks */,
+				ABD58C0616B4497100E73932 /* Resources */,
+				ABD58C0716B4497100E73932 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD58C0E16B4497100E73932 /* PBXTargetDependency */,
+			);
+			name = AutoAPBDecryptTests;
+			productName = AutoAPBDecryptTests;
+			productReference = ABD58C0916B4497100E73932 /* AutoAPBDecryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD58BDF16B4497000E73932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "AnV Software";
+			};
+			buildConfigurationList = ABD58BE216B4497000E73932 /* Build configuration list for PBXProject "AutoAPBDecrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABD58BDD16B4497000E73932;
+			productRefGroup = ABD58BE916B4497000E73932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD58BE716B4497000E73932 /* AutoAPBDecrypt */,
+				ABD58C0816B4497100E73932 /* AutoAPBDecryptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD58BE616B4497000E73932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD58BF716B4497000E73932 /* InfoPlist.strings in Resources */,
+				ABB590881A0C04390041C022 /* Images.xcassets in Resources */,
+				ABD58C0316B4497100E73932 /* MainMenu.xib in Resources */,
+				ABE6DFC916B4641A004DC112 /* AutoAPBDecrypt.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD58C0616B4497100E73932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD58C1416B4497100E73932 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABD58C0716B4497100E73932 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD58BE416B4497000E73932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD58BF916B4497000E73932 /* main.m in Sources */,
+				ABD58C0016B4497000E73932 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD58C0416B4497100E73932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD58C1716B4497100E73932 /* AutoAPBDecryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD58C0E16B4497100E73932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD58BE716B4497000E73932 /* AutoAPBDecrypt */;
+			targetProxy = ABD58C0D16B4497100E73932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD58BF516B4497000E73932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD58BF616B4497000E73932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABD58C0116B4497100E73932 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD58C0216B4497100E73932 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ABD58C1216B4497100E73932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD58C1316B4497100E73932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD58C1816B4497100E73932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /Applications;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 2.0;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = AutoAPBDec_Version.c;
+			};
+			name = Debug;
+		};
+		ABD58C1916B4497100E73932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_X86_VECTOR_INSTRUCTIONS = avx;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 2.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /Applications;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 2.0;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = AutoAPBDec_Version.c;
+			};
+			name = Release;
+		};
+		ABD58C1B16B4497100E73932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				INFOPLIST_FILE = "AutoAPBDecrypt/AutoAPBDecrypt-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABD58C1C16B4497100E73932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				INFOPLIST_FILE = "AutoAPBDecrypt/AutoAPBDecrypt-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABD58C1E16B4497100E73932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoAPBDecrypt.app/Contents/MacOS/AutoAPBDecrypt";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutoAPBDecryptTests/AutoAPBDecryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		ABD58C1F16B4497100E73932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoAPBDecrypt.app/Contents/MacOS/AutoAPBDecrypt";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AutoAPBDecryptTests/AutoAPBDecryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD58BE216B4497000E73932 /* Build configuration list for PBXProject "AutoAPBDecrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD58C1816B4497100E73932 /* Debug */,
+				ABD58C1916B4497100E73932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD58C1A16B4497100E73932 /* Build configuration list for PBXNativeTarget "AutoAPBDecrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD58C1B16B4497100E73932 /* Debug */,
+				ABD58C1C16B4497100E73932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD58C1D16B4497100E73932 /* Build configuration list for PBXNativeTarget "AutoAPBDecryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD58C1E16B4497100E73932 /* Debug */,
+				ABD58C1F16B4497100E73932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD58BDF16B4497000E73932 /* Project object */;
+}
